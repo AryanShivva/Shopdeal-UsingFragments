@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".profile">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/whatsapp_image_2023_04_30_at_11_10_18_pm_removebg_preview"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tVName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME: Shivva Aryan"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+
+        />
+    <TextView
+        android:id="@+id/tVPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile No: 8688376361"
+        android:textSize="27dp"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tVPh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email: aryanshivva@gmail.com"
+        android:textSize="27dp"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tV"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="THIS APP IS DESIGNED BY"
+        android:textStyle="bold"
+        android:textSize="27dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/b63140e74245a54edc8f8eaa7d6297d2" />
+
+
+</LinearLayout>
+
+
+</FrameLayout>
